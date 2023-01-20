@@ -9,9 +9,9 @@ function palindrome(str){
   
         // validate the first and last characters are same  
         if (str[i] !== str[len - 1 - i]) {  
-            alert( 'false');  
+            console.log( 'false');  
         }  
     }  
-    alert( 'true');
+    console.log( 'true');
 }
 module.exports = palindrome
